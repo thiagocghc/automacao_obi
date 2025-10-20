@@ -1,0 +1,8 @@
+requests
+selenium
+webdriver-manager
+pandas
+openpyxl
+PyPDF2
+pdfplumber
+llama_parse

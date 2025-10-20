@@ -1,0 +1,52 @@
+02/09/2025 12:07:57 - INFO - >>> Pipeline OBI: Download PDFs → MD (LlamaParse) → Extração (.md) → Append XLSX
+02/09/2025 12:07:57 - INFO - [DOWNLOAD] OBI2009 - Iniciação
+02/09/2025 12:07:57 - INFO - Acessando https://olimpiada.ic.unicamp.br/passadas/OBI2009/fase1/iniciacao/
+02/09/2025 12:07:57 - INFO - Configurando WebDriver Firefox (headless).
+02/09/2025 12:07:57 - INFO - ====== WebDriver manager ======
+02/09/2025 12:07:59 - INFO - Get LATEST geckodriver version for 142.0 firefox
+02/09/2025 12:07:59 - INFO - Get LATEST geckodriver version for 142.0 firefox
+02/09/2025 12:07:59 - INFO - Driver [C:\Users\Thiago\.wdm\drivers\geckodriver\win64\v0.36.0\geckodriver.exe] found in cache
+02/09/2025 12:08:09 - INFO - Página encontrada para fase1 de OBI2009.
+02/09/2025 12:08:09 - INFO - --> Encontrados 2 arquivos em https://olimpiada.ic.unicamp.br/passadas/OBI2009/fase1/iniciacao/
+02/09/2025 12:08:09 - INFO - Baixado: ProvaOBI2009_f1i1.pdf
+02/09/2025 12:08:09 - INFO - Baixado: ProvaOBI2009_f1i2.pdf
+02/09/2025 12:08:12 - INFO - Acessando https://olimpiada.ic.unicamp.br/passadas/OBI2009/fase2/iniciacao/
+02/09/2025 12:08:12 - INFO - Configurando WebDriver Firefox (headless).
+02/09/2025 12:08:12 - INFO - ====== WebDriver manager ======
+02/09/2025 12:08:14 - INFO - Get LATEST geckodriver version for 142.0 firefox
+02/09/2025 12:08:14 - INFO - Get LATEST geckodriver version for 142.0 firefox
+02/09/2025 12:08:14 - INFO - Driver [C:\Users\Thiago\.wdm\drivers\geckodriver\win64\v0.36.0\geckodriver.exe] found in cache
+02/09/2025 12:08:24 - INFO - Página encontrada para fase2 de OBI2009.
+02/09/2025 12:08:24 - INFO - --> Encontrados 2 arquivos em https://olimpiada.ic.unicamp.br/passadas/OBI2009/fase2/iniciacao/
+02/09/2025 12:08:24 - INFO - Baixado: ProvaOBI2009_f2i1.pdf
+02/09/2025 12:08:24 - INFO - Baixado: ProvaOBI2009_f2i2.pdf
+02/09/2025 12:08:27 - INFO - Acessando https://olimpiada.ic.unicamp.br/passadas/OBI2009/fase3/iniciacao/
+02/09/2025 12:08:27 - INFO - Configurando WebDriver Firefox (headless).
+02/09/2025 12:08:27 - INFO - ====== WebDriver manager ======
+02/09/2025 12:08:29 - INFO - Get LATEST geckodriver version for 142.0 firefox
+02/09/2025 12:08:29 - INFO - Get LATEST geckodriver version for 142.0 firefox
+02/09/2025 12:08:30 - INFO - Driver [C:\Users\Thiago\.wdm\drivers\geckodriver\win64\v0.36.0\geckodriver.exe] found in cache
+02/09/2025 12:08:39 - INFO - Página encontrada para fase3 de OBI2009.
+02/09/2025 12:08:39 - INFO - --> Encontrados 0 arquivos em https://olimpiada.ic.unicamp.br/passadas/OBI2009/fase3/iniciacao/
+02/09/2025 12:08:45 - INFO - HTTP Request: POST https://api.cloud.llamaindex.ai/api/parsing/upload "HTTP/1.1 200 OK"
+02/09/2025 12:08:47 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/parsing/job/af3aa367-a161-4ede-845c-560003776674 "HTTP/1.1 200 OK"
+02/09/2025 12:08:49 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/parsing/job/af3aa367-a161-4ede-845c-560003776674 "HTTP/1.1 200 OK"
+02/09/2025 12:08:50 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/parsing/job/af3aa367-a161-4ede-845c-560003776674/result/markdown "HTTP/1.1 200 OK"
+02/09/2025 12:08:50 - INFO - Convertido PDF→MD: C:\MESTRADO\Downloads_OBI\OBI2009\fase1\ProvaOBI2009_f1i1.pdf -> C:\MESTRADO\Downloads_OBI\md\OBI2009\fase1\ProvaOBI2009_f1i1.md
+02/09/2025 12:08:51 - INFO - HTTP Request: POST https://api.cloud.llamaindex.ai/api/parsing/upload "HTTP/1.1 200 OK"
+02/09/2025 12:08:54 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/parsing/job/8b9ae24e-d840-4529-9721-4fd344f6ce36 "HTTP/1.1 200 OK"
+02/09/2025 12:08:55 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/parsing/job/8b9ae24e-d840-4529-9721-4fd344f6ce36/result/markdown "HTTP/1.1 200 OK"
+02/09/2025 12:08:55 - INFO - Convertido PDF→MD: C:\MESTRADO\Downloads_OBI\OBI2009\fase1\ProvaOBI2009_f1i2.pdf -> C:\MESTRADO\Downloads_OBI\md\OBI2009\fase1\ProvaOBI2009_f1i2.md
+02/09/2025 12:08:56 - INFO - HTTP Request: POST https://api.cloud.llamaindex.ai/api/parsing/upload "HTTP/1.1 200 OK"
+02/09/2025 12:08:57 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/parsing/job/dd23d057-4547-4be1-9cc3-a459e4b2ed75 "HTTP/1.1 200 OK"
+02/09/2025 12:08:59 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/parsing/job/dd23d057-4547-4be1-9cc3-a459e4b2ed75 "HTTP/1.1 200 OK"
+02/09/2025 12:09:00 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/parsing/job/dd23d057-4547-4be1-9cc3-a459e4b2ed75/result/markdown "HTTP/1.1 200 OK"
+02/09/2025 12:09:00 - INFO - Convertido PDF→MD: C:\MESTRADO\Downloads_OBI\OBI2009\fase2\ProvaOBI2009_f2i1.pdf -> C:\MESTRADO\Downloads_OBI\md\OBI2009\fase2\ProvaOBI2009_f2i1.md
+02/09/2025 12:09:00 - INFO - HTTP Request: POST https://api.cloud.llamaindex.ai/api/parsing/upload "HTTP/1.1 200 OK"
+02/09/2025 12:09:02 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/parsing/job/8b1b3f0e-f4e7-4dd0-bf70-babd9f503cc2 "HTTP/1.1 200 OK"
+02/09/2025 12:09:04 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/parsing/job/8b1b3f0e-f4e7-4dd0-bf70-babd9f503cc2 "HTTP/1.1 200 OK"
+02/09/2025 12:09:04 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/parsing/job/8b1b3f0e-f4e7-4dd0-bf70-babd9f503cc2/result/markdown "HTTP/1.1 200 OK"
+02/09/2025 12:09:04 - INFO - Convertido PDF→MD: C:\MESTRADO\Downloads_OBI\OBI2009\fase2\ProvaOBI2009_f2i2.pdf -> C:\MESTRADO\Downloads_OBI\md\OBI2009\fase2\ProvaOBI2009_f2i2.md
+02/09/2025 12:09:04 - INFO - Conversão concluída: 4 arquivo(s) PDF convertidos para .md
+02/09/2025 12:09:05 - WARNING - Nenhuma nova questão extraída das .md. Nada a apendar no Excel.
+02/09/2025 12:09:05 - INFO - >>> Fim do pipeline OBI.
