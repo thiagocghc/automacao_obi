@@ -115,7 +115,8 @@ Automacao_OBI/
 
 - Não redistribua PDFs sem autorização dos autores originais.
 
-📞 Contato
+
+## 📞 Contato
 
 - Autor: Thiago Almeida
 - GitHub: @thiagocghc
