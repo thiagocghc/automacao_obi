@@ -69,8 +69,9 @@ Exemplo de saída:
    ✅ Baixado: ProvaOBI2018_f1ix.pdf
 ...
 
+---
 
-🧩 Como Funciona (Resumo Técnico)
+## 🧩 Como Funciona (Resumo Técnico)
 
 - Selenium (headless) abre cada URL de Iniciação (por ano e fase).
 
@@ -88,8 +89,9 @@ Exemplo de saída:
 
 - Exporta os dados para o Excel (cria caso não exista).
 
+---
 
-📂 Estrutura do Projeto
+## 📂 Estrutura do Projeto
 Automacao_OBI/
 ├── main.py                 → Script principal
 ├── Logger.py               → Classe de logging e mensagens
@@ -104,6 +106,7 @@ Automacao_OBI/
 │
 └── logs/                   → Arquivos de log da execução
 
+---
 
 🧠 Boas Práticas
 
@@ -115,6 +118,7 @@ Automacao_OBI/
 
 - Não redistribua PDFs sem autorização dos autores originais.
 
+---
 
 ## 📞 Contato
 
